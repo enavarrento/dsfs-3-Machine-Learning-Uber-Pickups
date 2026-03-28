@@ -20,19 +20,19 @@ The 2015 dataset was intentionally excluded from this iteration. The 2015 data r
 
 ## Repository Structure
 ```text
-├── assets/              # Exported HTML maps and visualizations
+├── assets/                 # Exported HTML maps and visualizations
 ├── data/
-│   ├── raw/             # Original Uber trip datasets (not tracked in Git)
-│   └── processed/       # Cleaned datasets
-├── notebooks/           # Jupyter notebooks for prototyping and presentation
-│   ├── 01-Uber_Pickups.ipynb         # Project requirements
-│   ├── 02-uber-pickups-prototype.ipynb # Initial exploration
+│   ├── raw/                # Original Uber trip datasets (not tracked in Git)
+│   └── processed/          # Cleaned datasets
+├── notebooks/              # Jupyter notebooks for prototyping and presentation
+│   ├── 01-Uber_Pickups.ipynb              # Project requirements
+│   ├── 02-uber-pickups-prototype.ipynb    # Initial exploration
 │   └── 03-uber-pickups-presentation.ipynb # Final pipeline and evaluation
-├── src/                 # Reusable Python modules
-│   ├── preprocessing.py # Data ingestion, consolidation, and temporal filtering
-│   └── clustering.py    # KMeans and DBSCAN models
-├── README.md            # Project documentation
-└── requirements.txt     # Python dependencies
+├── src/                    # Reusable Python modules
+│   ├── preprocessing.py    # Data ingestion, consolidation, and temporal filtering
+│   └── clustering.py       # KMeans and DBSCAN models
+├── README.md               # Project documentation
+└── requirements.txt        # Python dependencies
 ```
 
 ## Environment Setup
