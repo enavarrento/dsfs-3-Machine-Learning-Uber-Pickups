@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+scikit-learn
+scikit-learn-intelex
+dpnp
+dpctl
+tbb4py
+plotly
+matplotlib
+seaborn
